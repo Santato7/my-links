@@ -1,7 +1,6 @@
 body {
   display: grid;
   place-items: center;
-  gap: 10px;
   margin: 0px;
   font-family: monospace;
 
@@ -31,7 +30,6 @@ div img {
 .panel {
   display: grid;
   justify-content: center;
-  /* justify-items: center; */
   max-width: 400px;
   max-height: 800px;
   padding-bottom: 5px;
