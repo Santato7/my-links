@@ -31,18 +31,53 @@ div img {
 .panel {
   display: grid;
   justify-content: center;
+  /* justify-items: center; */
   max-width: 400px;
   max-height: 800px;
   padding-bottom: 5px;
 
   background: rgb(255, 255, 255, 0.6);
+  border: solid 3px #fff;
   border-radius: 10px;
 }
 
-.panel-selfie {
+.name,
+.description {
+  text-align: left;
+  margin: 0px;
+}
+
+.name {
+  font-size: 23px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.description {
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+}
+
+.container-selfie {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.selfie {
   padding: 15px;
-  max-width: 370px;
+  max-width: 180px;
   border-radius: 300px;
+}
+
+.stacks {
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.info {
+  margin: auto 0;
 }
 
 .panel-text {
